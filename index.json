@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "repositoryName": "proclaim-modules",
+  "generatedAt": "2026-11-20T03:15:08Z",
+  "packages": [
+    {
+      "name": "registry",
+      "versions": [
+        {
+          "releasedAt": "2026-11-20T03:15:08Z",
+          "publisherRef": "registry-v0.1.0",
+          "url": "https://github.com/goldennftplatform-svg/proclaim/releases/download/registry-v0.1.0/registry-0.1.0.lgx",
+          "urls": [
+            "https://github.com/goldennftplatform-svg/proclaim/releases/download/registry-v0.1.0/registry-0.1.0.lgx"
+          ],
+          "size": 74377042,
+          "sha256": "1024036067711c06fac158be891422b362c71b7ebeefadcc1dd6c389d113c59e",
+          "rootHash": "4979d0f4992d9678cb5b07efc9d12b22938a59bbed0f42f471d5cc477fd53f50",
+          "manifest": {
+            "author": "",
+            "category": "tools",
+            "dependencies": [],
+            "description": "Qt/QML Basecamp module for the registry program",
+            "hashes": {
+              "root": "4979d0f4992d9678cb5b07efc9d12b22938a59bbed0f42f471d5cc477fd53f50",
+              "variants": "5f0982fcb15e06a5e06231ce52a247236d27a1fb532c5f62711323dd779fb1f8",
+              "variants/linux-amd64": "fa7134370ce067856718f72d61696ba288f87db638d3273325457b02062ac19a"
+            },
+            "icon": "",
+            "main": {
+              "linux-amd64": "libregistry_plugin.so"
+            },
+            "manifestVersion": "0.7.0",
+            "name": "registry",
+            "type": "ui",
+            "version": "0.1.0"
+          },
+          "signature": {
+            "algorithm": "ed25519",
+            "did": "did:jwk:eyJjcnYiOiJFZDI1NTE5Iiwia3R5IjoiT0tQIiwieCI6ImpiZDM1NHFnMkhHSkg4NVpHcVFJNmFjckNfQWs0SXE0ZnRyakFxUEo3UzAifQ",
+            "linkedDids": [],
+            "signature": "Amx4QR2DNWnjyA1FKsSVcz7yhp1rALTgneCCtj8OvhyV6reeUJTNN/fh+6WUS6V5iVNvoaMmTL5LYlovb3C2Dw==",
+            "signer": {
+              "name": "proclaim LP-0023",
+              "url": "https://github.com/goldennftplatform-svg/proclaim"
+            },
+            "version": 1
+          }
+        }
+      ]
+    }
+  ]
+}
